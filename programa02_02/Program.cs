@@ -11,8 +11,8 @@ namespace programa02_02
         static void Main(string[] args) 
         { 
             CPersona p1 = new CPersona();
-            p1.Nombre = "Juan";
-            p1.Edad = 20;
+            //p1.Nombre = "Juan";
+            //p1.Edad = 20;
 
             p1.muestra();
 
