@@ -7,16 +7,12 @@ namespace programa02_02
 		private string nombre;
 		private int edad;
 
-        public CPersona()
+        public CPersona(string pNombre, int pEdad)
         {
-            string tempEdad = "Estamos en el constructor";
-            Console.WriteLine("Dame el nombre");
-            nombre = Console.ReadLine();
-            Console.WriteLine("Dame la edad");
-            tempEdad = Console.ReadLine();
-            edad = Convert.ToInt32(tempEdad);
+            Console.WriteLine("Estamos en el constructor");
 
-            Console.WriteLine("");
+            nombre = pNombre;
+            edad = pEdad;           
         }
         public string Nombre
         {
