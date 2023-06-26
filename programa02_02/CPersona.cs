@@ -9,9 +9,14 @@ namespace programa02_02
 
         public CPersona()
         {
-            Console.WriteLine("Estamos en el constructor");
-            nombre = "";
-            edad = 0;
+            string tempEdad = "Estamos en el constructor";
+            Console.WriteLine("Dame el nombre");
+            nombre = Console.ReadLine();
+            Console.WriteLine("Dame la edad");
+            tempEdad = Console.ReadLine();
+            edad = Convert.ToInt32(tempEdad);
+
+            Console.WriteLine("");
         }
         public string Nombre
         {
