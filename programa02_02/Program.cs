@@ -10,7 +10,7 @@ namespace programa02_02
     {
         static void Main(string[] args) 
         { 
-            CPersona p1 = new CPersona();
+            CPersona p1 = new CPersona("Juan",20);
             //p1.Nombre = "Juan";
             //p1.Edad = 20;
 
